@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-mongoose.connect(`mongodb+srv://admin:ABYesaaw1IKHe1yQ@cluster1.ulmqg9d.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(`DB URL`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
